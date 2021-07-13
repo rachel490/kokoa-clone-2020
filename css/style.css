@@ -1,0 +1,127 @@
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+
+/* screens */
+@import "screens/login.css";
+
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+
+.navbar-friends {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+.navbar-friends h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar-friends__icon i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.message-bar {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    padding:15px 0;
+    font-size: 14px;
+}
+
+.message-bar span {
+    margin: 0 5px;
+}
+
+.message-bar i {
+    color:lightgrey;
+}
+
+.profile-bar {
+    display: flex;
+    align-items: center;
+    margin: 15px 10px;
+}
+
+.profile-bar img{
+    height:70px;
+    border-radius: 20px;
+}
+
+.profile-bar h2{
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.list-nav {
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 10px 20px 10px 10px;
+    display:flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.3);
+    font-weight: 500;
+}
+
+.list-nav i {
+    color: rgba(0,0,0,0.2)
+}
+
+.channels {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.channels-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.channels-box img{
+    height:50px;
+    border-radius: 20px;
+    width: 10%;
+    margin-right: 15px;
+}
+
+.channels-box h3{
+    width: 80%;
+    font-weight: 400;
+}
+
+.channels-box__arrow {
+    color: rgba(0,0,0,0.3);
+
+}
+
+
+.footer {
+    background-color: #FAFAFA;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:200px;
+}
+
+.footer i {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer img{
+    height: 30px;
+}
+

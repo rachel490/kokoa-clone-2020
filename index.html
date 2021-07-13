@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/6dec151dd2.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,18 +27,17 @@
 
     <header class="welcome-header">
         <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
-        <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
+        <p class="welcome-header__text">If you have a Kakao Account, <br>log in with your email or phone number.</p>
     </header>
 
-    <div class="login-container">
-        <form id="login-form">
-            <input type="text" placeholder="Email or phone number">
-            <input type="password" placeholder="Password">
-            <button>Log In</button>
-            <button>Sign up</button>
-            <a href="#">Find Kakao account or Password</a>
-        </form>
-    </div>
+    <form id="login-form" action="friends.html" method="GET">
+        <input name="username" type="text" placeholder="Email or phone number">
+        <input name="pw" type="password" placeholder="Password">
+        <button>Log In</button>
+        <button>Sign up</button>
+        <a href="#">Find Kakao Account or Password</a>
+    </form>
+
     
 </body>
 </html>
